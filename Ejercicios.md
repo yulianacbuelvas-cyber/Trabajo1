@@ -51,3 +51,23 @@ definir num como entero
 	escribir "el numero tiene ",  contador ,  " digitos"
 	FinProceso
 
+## Cuantos numeros primos hay del 1 al numero dado 
+definir num, j, d  , i Como Entero
+	Escribir " Digite un numero"
+	leer num 
+	para j = 2 hasta num Hacer
+		i = 1 
+		d = 0 
+		mientras i <= j Hacer
+			si (j mod i = 0 ) entonces
+				d = d + 1 
+			FinSi
+			i = i + 1
+		FinMientras
+		si d <= 2 entonces 
+			primo = primo + 1 
+			escribir j 
+		FinSi
+	FinPara
+	escribir "hay", primo , "primos "
+

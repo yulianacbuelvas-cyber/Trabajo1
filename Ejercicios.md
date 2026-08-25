@@ -39,3 +39,15 @@ definir num ,  i como entero
 	escribir ""
 	FinPara
 
+## Cuantos digitos tiene el numero dado 
+definir num como entero
+	escribir "Escriba el numero"
+	leer num 
+	contador = 0 
+	mientras num > 0 hacer
+		num = trunc ( num /10) 
+		contador = contador + 1 
+	FinMientras
+	escribir "el numero tiene ",  contador ,  " digitos"
+	FinProceso
+

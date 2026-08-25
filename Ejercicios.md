@@ -28,3 +28,14 @@ definir num , i , d como entero
 		escribir "Este numero no es primo"
 	FinSi
 
+## Con un numero entero crre un cuadrado con el numero de lados que tenga
+definir num ,  i como entero
+	escribir "Digite un numero" 
+	leer num 
+	para i = 1 hasta num con paso 1 hacer 
+		para j = 1 hasta num con paso 1 hacer 
+		escribir " *" sin saltar 
+	FinPara
+	escribir ""
+	FinPara
+
